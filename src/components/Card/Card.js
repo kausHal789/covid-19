@@ -30,7 +30,7 @@ export default ({ data: { confirmed, recovered, deaths, lastUpdate }}) => {
             <Typography color="textSecondary" gutterBottom>Recovered</Typography>
             <Typography variant="h5"><Countup start={0} duration={2.5} separator="," end={recovered.value} /></Typography>
             <Typography color="textSecondary"><Moment format="YYYY, MMM DD hh:mm a" date={ lastUpdate }/></Typography>
-            <Typography variant="body2">Number of reciveries from Covid-19</Typography>
+            <Typography variant="body2">Number of recovered from Covid-19</Typography>
           </CardContent>
         </Grid>
 
